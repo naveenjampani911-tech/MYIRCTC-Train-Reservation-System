@@ -1,0 +1,11 @@
+1 RajdhaniExpress Delhi Mumbai 50 50
+2 IntercityExpress Hyderabad SMVTBangalore 50 50
+3 VandeBharathExpress Secunderabad MGRChennai 50 50
+4 TelanganaExpress Hyderabad Delhi 80 80
+5 VaranasiExpress Hyderabad Varanasi 80 80
+6 sabariSFExpress Secunderabad Thiruvananthapuram 75 75
+7 ShatabdiExpress Chennai Bangalore 60 60
+8 KanyakumariExpress Kanyakumari  Secunderabad 75 75
+9 TirupatiExpress Bangalore Tirupati 50 50
+10 PadmavathiExpress Secunderabad Tirupati 60 60
+

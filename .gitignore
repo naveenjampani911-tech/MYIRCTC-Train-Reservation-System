@@ -1,0 +1,5 @@
+*.o
+myirctc
+a.out
+passenger_info.txt
+user_login_details.txt
