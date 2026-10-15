@@ -81,13 +81,23 @@ void Reserve_ticket()
 		scanf("%d",&temp->seat_no); 
 
 		//check is selected seat is already reserved or not
-		if(is_seat_reserved(INFO->TR_NO, temp->seat_no)) 
-		{
-			printf("Seat already taken! Choose another.\n"); 
-			i--;
-			// retry same passenger 
-			continue;
-		}
+		int seat_taken = is_seat_reserved(INFO->TR_NO, temp->seat_no);
+                 PASSE *check = PASSD;
+                 while (check != temp)
+                 {
+                    if (check->seat_no == temp->seat_no)
+                      {
+                          seat_taken = 1;
+                              break;
+                      }
+                       check = check->addr;
+                 }
+                  if (seat_taken)
+                    {
+                           printf("Seat already taken! Choose another.\n");
+                                i--;
+                              continue;
+                    }
 
 		selected_train->available_seats--;
 		temp->booking_id=booking_id;

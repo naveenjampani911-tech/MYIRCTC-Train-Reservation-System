@@ -11,16 +11,16 @@ int main()
 {
 	int choice;
 	
-	printf("==============================================================\n");
-	printf("            MYIRCTC – TRAIN RESERVATION SYSTEM\n");
-	printf("==============================================================\n\n");
+	//printf("==============================================================\n");
+	//printf("            MYIRCTC – TRAIN RESERVATION SYSTEM\n");
+	//printf("==============================================================\n\n");
 
 	while(1)
 	{
 		//display main application menue(sign up,sign in,exit)
 		menue();
 
-		printf("Select option:");
+		//printf("Select option:");
 		scanf("%d",&choice);
 	
 		switch(choice)
@@ -38,7 +38,8 @@ int main()
 			       printf("Application Closed Successfully.\n");
 			       printf("--------------------------------------------------------------\n");
 			       exit(0);
-			default:printf("invalid choice");
+			default:printf("invalid choice please select 1, 2, or 3. \n");
+				break;
 		}
 	}
 }
